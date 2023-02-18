@@ -1,0 +1,51 @@
+:root {
+  --heading-font-family: "Roboto", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+}
+h1 {
+  font-size: 72px;
+}
+body {
+  font-family: var(--heading-font-family);
+}
+button {
+  font-family: "Montserrat", sans-serif;
+}
+nav {
+  font-family: "Rubik Bubbles", cursive;
+}
+.hero {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/068/159/original/326820172_1377307569748674_2674801701547511465_n.jpg?1676748747");
+  background-color: black;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+  height: 400px;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding-top: 150px;
+}
+.hero p {
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin: 0;
+}
+.hero h2 {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 2;
+}
+.btn-branding {
+  padding: 5px 10px;
+  background: #ffffff;
+  border-radius: 50px;
+  font-size: 15px;
+}
