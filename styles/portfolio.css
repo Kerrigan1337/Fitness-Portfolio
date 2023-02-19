@@ -14,6 +14,7 @@ h1 {
 }
 body {
   font-family: var(--heading-font-family);
+  background-color: #282323;
 }
 button {
   font-family: "Montserrat", sans-serif;
@@ -21,6 +22,7 @@ button {
 nav {
   font-family: "Rubik Bubbles", cursive;
 }
+
 .hero {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/068/159/original/326820172_1377307569748674_2674801701547511465_n.jpg?1676748747");
   background-color: black;
@@ -37,6 +39,7 @@ nav {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   margin: 0;
+  color: white;
 }
 .hero h2 {
   font-weight: normal;
@@ -48,4 +51,27 @@ nav {
   background: #ffffff;
   border-radius: 50px;
   font-size: 15px;
+}
+img {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  background-color: #282323;
+}
+footer {
+  color: #ffffff;
+}
+.logos {
+  text-align: center;
+  justify-content: space-between;
+  padding-right: 50px;
+}
+@media (max-width: 600px) {
+  .hero {
+    padding-top: 50px;
+  }
+  h1 {
+    font-size: 52px;
+  }
 }
