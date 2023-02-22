@@ -72,18 +72,18 @@ footer {
   border-radius: 20px;
   margin: 0 auto;
 }
-.about-hero {
+.content {
   color: white;
   text-align: justify;
   padding-top: 50px;
 }
-.about-hero h1 {
+.content h1 {
   font-size: 64px;
 }
-.about-hero h6 {
+.content h6 {
   color: #f65282;
 }
-.about-hero p {
+.content p {
   font-size: 18px;
 }
 
