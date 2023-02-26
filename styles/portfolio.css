@@ -14,7 +14,7 @@ h1 {
 }
 body {
   font-family: var(--heading-font-family);
-  background-color: #000;
+  background-color: #282323;
 }
 button {
   font-family: "Montserrat", sans-serif;
@@ -22,6 +22,7 @@ button {
 nav {
   font-family: "Rubik Bubbles", cursive;
 }
+
 .contact-box {
   background-color: dimgrey;
   box-shadow: rgba(0, 0, 0, 0.25) 1.95px 1.95px 2.6px;
@@ -81,10 +82,23 @@ nav a {
   text-decoration: none;
   color: #ffffff;
 }
+.content {
+  margin-top: 50px;
+  padding: 50px;
+  border-radius: 5%;
+}
+.about-hero {
+  margin-top: 50px;
+  border-radius: 5%;
+}
 nav a:hover,
 nav li.active a {
   color: darkgray;
   transition: all 100ms ease-in-out;
+}
+.about-content {
+  color: #fff;
+  padding: 20px;
 }
 .email-link a {
   color: #ffffff !important;
@@ -105,9 +119,18 @@ nav li.active a {
   transition: all 100ms ease-in-out;
 }
 .about-img {
-  max-height: 400px;
+  max-width: 250px;
+  padding-top: 10px;
   border-radius: 20px;
   margin: 0 auto;
+}
+.coded-by {
+  text-decoration: none;
+  color: #fff;
+}
+.coded-by:hover {
+  color: #f65282;
+  transition: all 100ms ease-in-out;
 }
 .content {
   color: white;
