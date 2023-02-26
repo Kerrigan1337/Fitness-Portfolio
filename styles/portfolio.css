@@ -14,7 +14,7 @@ h1 {
 }
 body {
   font-family: var(--heading-font-family);
-  background-color: #282323;
+  background-color: #000;
 }
 button {
   font-family: "Montserrat", sans-serif;
@@ -22,12 +22,16 @@ button {
 nav {
   font-family: "Rubik Bubbles", cursive;
 }
+.contact-box {
+  background-color: dimgrey;
+  box-shadow: rgba(0, 0, 0, 0.25) 1.95px 1.95px 2.6px;
+  padding: 30px;
+  border-radius: 10px;
+}
 
 .hero {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/068/159/original/326820172_1377307569748674_2674801701547511465_n.jpg?1676748747");
-  background-color: black;
   background-repeat: no-repeat;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
   height: 400px;
   background-position: center;
   text-align: center;
@@ -48,19 +52,21 @@ nav {
 }
 .btn-branding {
   padding: 5px 10px;
-  background: #ffffff;
+  background: #f65282;
   border-radius: 50px;
   font-size: 15px;
 }
 img {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 .container {
   background-color: #282323;
 }
 footer {
-  color: #ffffff;
+  display: flex;
+  margin: 0 auto;
 }
 nav ul {
   padding-top: 10px;
@@ -80,10 +86,23 @@ nav li.active a {
   color: darkgray;
   transition: all 100ms ease-in-out;
 }
-.logos {
+.email-link a {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+.logos a {
   text-align: center;
   justify-content: space-between;
-  padding-right: 50px;
+  padding: 0 5px;
+  margin: 5px;
+  color: #ffffff;
+  background-color: #f65282;
+  border-radius: 50%;
+}
+.logos a:hover {
+  color: #f65282;
+  background-color: #fff;
+  transition: all 100ms ease-in-out;
 }
 .about-img {
   max-height: 400px;
@@ -105,7 +124,7 @@ nav li.active a {
   font-size: 18px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .hero {
     padding-top: 50px;
   }
